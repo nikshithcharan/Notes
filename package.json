@@ -1,18 +1,19 @@
 {
   "name": "inotes",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
+  "description": "Nodejs,ejs,mongoose.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "NIKKI",
+  "license": "IIT",
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.10.0"
+    
+    "dotenv": "^8.6.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "mongoose": "^5.13.14",
+    "passport": "^0.4.1"
   }
 }
